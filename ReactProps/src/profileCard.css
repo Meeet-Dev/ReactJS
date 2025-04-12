@@ -1,0 +1,47 @@
+.profileCard{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  width: fit-content;
+  height: fit-content;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  background-color: #fff;
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  &:hover{
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    transform: scale(1.05);
+  }
+  img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  h1{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+  }
+  h2{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+  }
+  h3{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0
+  }
+  
+}
